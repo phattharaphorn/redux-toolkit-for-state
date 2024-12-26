@@ -34,7 +34,7 @@ npm start
 
 4. Open the browser at http://localhost:3000.
    
-### Features in the App:
+### How to test App:
 1. Add Product: Add a new product with a name and price.
 
 2. Edit Product: Click on the Edit button next to any product to update its name or price.
