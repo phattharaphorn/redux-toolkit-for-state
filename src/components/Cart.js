@@ -1,4 +1,3 @@
-// src/components/Cart.js
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { addItem, removeItem, clearCart } from '../features/cart/cartSlice';

@@ -1,4 +1,3 @@
-// src/features/products/productSlice.js
 import { createSlice } from '@reduxjs/toolkit';
 
 const initialState = {

@@ -1,4 +1,3 @@
-// src/components/EditProduct.js
 import React, { useState, useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { updateProduct } from '../features/products/productSlice';
@@ -8,7 +7,6 @@ const EditProduct = ({ product }) => {
   const [name, setName] = useState('');
   const [price, setPrice] = useState('');
 
-  // เมื่อได้รับ props ใหม่ (product) ให้ตั้งค่าชื่อและราคา
   useEffect(() => {
     if (product) {
       setName(product.name);
@@ -23,7 +21,7 @@ const EditProduct = ({ product }) => {
     }
   };
 
-  if (!product) return null; // ถ้าไม่มีสินค้าให้แสดง
+  if (!product) return null; 
 
   return (
     <div>
